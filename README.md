@@ -33,11 +33,3 @@ The app has a simple user interface that displays a random sentence every few se
 - `TraceManager`: This class sets up the OpenTelemetry SDK with an OTLP exporter, which sends spans to a configured endpoint over HTTP. The SDK is also set up with a resource that includes attributes such as the service name and version.
 
 - `ContentView`: This SwiftUI view displays a random sentence and a globe image. It also generates spans for the sentence generation process.
-
-## License
-
-This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
-
----
-
-Again, make sure to replace "yourusername" and "your-repository-name" with your actual GitHub username and the name of your repository. You may also want to include more specific instructions depending on how your project is set up, and possibly more information about OpenTelemetry and its concepts.
